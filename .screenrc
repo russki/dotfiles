@@ -1,0 +1,6 @@
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{-b gk}%-w%{+b kg}%50>%n %t%{-b gk}%+w%< %=%{..G} %H %{..Y} %m/%d %c "
+bindkey -k kD stuff ^H
+startup_message off
+defscrollback 9999
